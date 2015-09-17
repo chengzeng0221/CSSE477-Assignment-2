@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+<extension
+id="edu.rosehulman.chat.crextension"
+name="Chandan's Extension Support"
+point="edu.rosehulman.chat.receiver">
+<receiver
+class="edu.rosehulman.chat.crextension.CRExtension">
+</receiver>
+</extension>
+</plugin>
